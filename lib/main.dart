@@ -327,88 +327,35 @@ class mainTopPart extends StatelessWidget {
                                           borderRadius:
                                               BorderRadius.circular(20)),
                                       child: Padding(
-                                        padding: const EdgeInsets.symmetric(horizontal:10.0,vertical: 0),
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 10.0, vertical: 0),
                                         child: Column(
                                           children: [
-                                           Container(
-                                            height: 60,
-                                            width: 60,
-                                            decoration: BoxDecoration(
-                                              color:Colors.green,
-                                              borderRadius: BorderRadius.circular(20)
+                                            Container(
+                                                height: 60,
+                                                width: 60,
+                                                decoration: BoxDecoration(
+                                                    color: Colors.green,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20)),
+                                                child: Icon(
+                                                    Icons.scanner_rounded)),
+                                            SizedBox(
+                                              height: 8,
                                             ),
-                                            child: Icon(Icons.scanner_rounded)
-                                            ),
-                                           SizedBox(height: 8,),
-                                           Text("Scan QR",style: TextStyle(fontWeight: FontWeight.bold),
-                                           )
+                                            Text(
+                                              "Scan QR",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold),
+                                            )
                                           ],
                                         ),
                                       ),
                                     ),
                                   ),
                                   SizedBox(width: 5),
-                                   Padding(
-                                     padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 8),
-                                     child: Container(
-                                       height: 90,
-                                       decoration: BoxDecoration(
-                                           color: Colors.white,
-                                           borderRadius:
-                                               BorderRadius.circular(20)),
-                                       child: Padding(
-                                         padding: const EdgeInsets.symmetric(horizontal:7.0,vertical: 0),
-                                         child: Column(
-                                           children: [
-                                            Container(
-                                             height: 60,
-                                             width: 60,
-                                             decoration: BoxDecoration(
-                                               color:Colors.green,
-                                               borderRadius: BorderRadius.circular(20)
-                                             ),
-                                             child: Icon(Icons.add_alert_rounded)
-                                             ),
-                                            SizedBox(height: 8,),
-                                            Text("Top Up",style: TextStyle(fontWeight: FontWeight.bold),
-                                            )
-                                           ],
-                                         ),
-                                       ),
-                                     ),
-                                   ),
-                                  SizedBox(width: 5),
-                                   Padding(
-                                     padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 8),
-                                     child: Container(
-                                       height: 90,
-                                       decoration: BoxDecoration(
-                                           color: Colors.white,
-                                           borderRadius:
-                                               BorderRadius.circular(20)),
-                                       child: Padding(
-                                         padding: const EdgeInsets.symmetric(horizontal:7.0,vertical: 0),
-                                         child: Column(
-                                           children: [
-                                            Container(
-                                             height: 60,
-                                             width: 60,
-                                             decoration: BoxDecoration(
-                                               color:Colors.green,
-                                               borderRadius: BorderRadius.circular(20)
-                                             ),
-                                             child: Icon(Icons.scanner_rounded)
-                                             ),
-                                            SizedBox(height: 8,),
-                                            Text("Send",style: TextStyle(fontWeight: FontWeight.bold),
-                                            )
-                                           ],
-                                         ),
-                                       ),
-                                     ),
-                                   ),
-                                  SizedBox(width: 5),
-                                   Padding(
+                                  Padding(
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 10, vertical: 8),
                                     child: Container(
@@ -418,21 +365,105 @@ class mainTopPart extends StatelessWidget {
                                           borderRadius:
                                               BorderRadius.circular(20)),
                                       child: Padding(
-                                        padding: const EdgeInsets.symmetric(horizontal:7.0,vertical: 0),
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 7.0, vertical: 0),
                                         child: Column(
                                           children: [
-                                           Container(
-                                            height: 60,
-                                            width: 60,
-                                            decoration: BoxDecoration(
-                                              color:Colors.green,
-                                              borderRadius: BorderRadius.circular(20)
+                                            Container(
+                                                height: 60,
+                                                width: 60,
+                                                decoration: BoxDecoration(
+                                                    color: Colors.green,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20)),
+                                                child: Icon(
+                                                    Icons.add_alert_rounded)),
+                                            SizedBox(
+                                              height: 8,
                                             ),
-                                            child: Icon(Icons.scanner_rounded)
+                                            Text(
+                                              "Top Up",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(width: 5),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 10, vertical: 8),
+                                    child: Container(
+                                      height: 90,
+                                      decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                      child: Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 7.0, vertical: 0),
+                                        child: Column(
+                                          children: [
+                                            Container(
+                                                height: 60,
+                                                width: 60,
+                                                decoration: BoxDecoration(
+                                                    color: Colors.green,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20)),
+                                                child: Icon(
+                                                    Icons.scanner_rounded)),
+                                            SizedBox(
+                                              height: 8,
                                             ),
-                                           SizedBox(height: 8,),
-                                           Text("Withdraw",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 12),
-                                           )
+                                            Text(
+                                              "Send",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(width: 5),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 10, vertical: 8),
+                                    child: Container(
+                                      height: 90,
+                                      decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                      child: Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 7.0, vertical: 0),
+                                        child: Column(
+                                          children: [
+                                            Container(
+                                                height: 60,
+                                                width: 60,
+                                                decoration: BoxDecoration(
+                                                    color: Colors.green,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20)),
+                                                child: Icon(
+                                                    Icons.scanner_rounded)),
+                                            SizedBox(
+                                              height: 8,
+                                            ),
+                                            Text(
+                                              "Withdraw",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 12),
+                                            )
                                           ],
                                         ),
                                       ),
@@ -463,52 +494,110 @@ class mainTopPart extends StatelessWidget {
                               height: 140,
                               decoration: BoxDecoration(
                                   color: Colors.pink,
-                                  borderRadius: BorderRadius.circular(20)
-                                  ),
-                                  child: Row(
-                                    children: [
-                                      Expanded(
-                                        flex: 1,
-                                        child:Padding(
-                                          padding: const EdgeInsets.fromLTRB(13, 0, 8, 0),
-                                          child: Container(
-                                            height: 110,
-                                            decoration: BoxDecoration(
-                                              color:Colors.white,
-                                            ),
-                                            child: Column(
-                                              mainAxisAlignment: MainAxisAlignment.start,
-                                              crossAxisAlignment: CrossAxisAlignment.start,
-                                              children: [
-                                                Container(
-                                                  height: 77,
-                                                  decoration: BoxDecoration(
-                                                    color: Colors.blue,
-                                                    borderRadius: BorderRadius.circular(15)
-                                                  ),
-                                                  child: Column(
-                                                    co
-                                                  ),
-                                                ),
-                                                SizedBox(height: 3,),
-                                                Text("thierry",style: TextStyle(fontWeight: FontWeight.bold),)
-                                              ],
-                                            ),
-                                          ),
-                                        )
-                                      ),
-                                      SizedBox(width: 8,),
-                                       Expanded(
-                                        flex: 1,
-                                        child:Container(
-                                          height: 110,
+                                  borderRadius: BorderRadius.circular(20)),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                      flex: 1,
+                                      child: Padding(
+                                        padding: const EdgeInsets.fromLTRB(
+                                            13, 0, 8, 0),
+                                        child: Container(
+                                          height: 100,
                                           decoration: BoxDecoration(
-                                            color:Color.fromARGB(255, 35, 42, 235),
+                                            color: Colors.white,
                                           ),
-                                        )
-                                      ),
-                                    ],
+                                          child: Column(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Container(
+                                                height: 70,
+                                                decoration: BoxDecoration(
+                                                    color: Colors.blue,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            15)),
+                                                child: Column(
+                                                  children: [
+                                                    Container(
+                                                      height: 40,
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.yellow,
+                                                      ),
+                                                      child: Row(
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .end,
+                                                        children: [
+                                                          Text("thierry"),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                    Container(
+                                                      child: Padding(
+                                                        padding:
+                                                            const EdgeInsets
+                                                                .symmetric(
+                                                                horizontal: 10,
+                                                                vertical: 0),
+                                                        child: Row(
+                                                          children: [
+                                                            Text(
+                                                              "Rp :",
+                                                              style: TextStyle(
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .bold,
+                                                                  color: Colors
+                                                                      .white),
+                                                            ),
+                                                            SizedBox(width: 5),
+                                                            Text(
+                                                              "100000",
+                                                              style: TextStyle(
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .bold,
+                                                                  color: Colors
+                                                                      .white),
+                                                            ),
+                                                          ],
+                                                        ),
+                                                      ),
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                              SizedBox(
+                                                height: 3,
+                                              ),
+                                              Text(
+                                                "thierry",
+                                                style: TextStyle(
+                                                    fontWeight:
+                                                        FontWeight.bold),
+                                              )
+                                            ],
+                                          ),
+                                        ),
+                                      )),
+                                  SizedBox(
+                                    width: 8,
                                   ),
+                                  Expanded(
+                                      flex: 1,
+                                      child: Container(
+                                        height: 110,
+                                        decoration: BoxDecoration(
+                                          color:
+                                              Color.fromARGB(255, 35, 42, 235),
+                                        ),
+                                      )),
+                                ],
+                              ),
                             ),
                           ),
                           //  transaction
